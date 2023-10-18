@@ -1,0 +1,108 @@
+GIT:Version Control System is a tool that helps to track changes in code
+code is fetched from rempote repo and pushed to code repo
+Advantage:
+1)Track the history
+2)Collabration
+3)Popular
+4)Free and Open Resourcecommit
+5)Fast and Scalable
+GIT HUB:It is a website or Database that allows developers to store and manage their code using git
+Repository(Floder)
+Advantage OF Repository:
+can have access to see second  party Repository
+We can Copy second party Repository
+Commit(changes):track of history
+Configuring Git(which account we are doing changes)
+"~" Root Directory(Main Floder)
+Directory(floder)
+Configuring Git(account for  doing changes)
+git config --global user.name"  "
+git config --global user.email"  "
+git config --list
+
+
+CLONE AND STATUS:
+Clone:Cloning a repositoryon our local machine
+
+Explanation: Remote(Github Repository)→→→COPY→→→→Local(Laptop/PC Files)
+Syntax:git clone<-some link->
+
+cd(Change in Directory):forward folder
+cd ..(Change in Directory):backward folder
+mkdir(to create new folder or repo)
+ls(List)
+clear
+Status:displays state of the code
+Git Status
+1)git status
+2)untracked(new files that git doesnt yet track)
+3)modified(Changed)
+4)staged(file is ready to committed)
+5)unmodified(un Changed)
+
+Process
+change(Modified)/new file(Untracked)→→→→add(staged)→→→→→→commmit(unchaged)
+add:adds new or changed files in your working directory to the Git staging area
+git add<file name>
+or git add .(.:add all files)
+
+commit:it is the record of change
+git commit -m"some messaage"
+
+git cd filename(change file/folder)
+git cd ..(get out from present file or folder)
+
+push:upload local repo content to remote repo
+git push origin main
+
+Init Command
+init:used to create a new git repo
+git init or mkdir <name>
+git remote add origin<link>
+git remote -v(to verify remote)
+git branch(to check branch)
+git branch -M main (to rename branch)
+git push -u origin main (u:set upstream meaning working on same project not repeating using origin main)
+
+branch List:
+
+git branch (to check branch)
+git branch -M main (to rename branch)
+git checkout <branch name> to navigate
+git checkout -b <new branch name> (to create new branch)
+git branch -d <branch name> (to delete branch)
+way1:
+
+git diff <branch name> (to compare commits,branchs,files and more)
+git  merge <changes branch name to deploy branch name> (to merge 2 branches)
+
+way2:
+pull request:using github location
+(it lets you tellother  about changesyou have pushed to a branch in a repository on Github)
+
+pull Command:
+git pull origin main(used to fetch and dowload content from a remote repo and immendiately update the local repo to match that content)
+
+git push 
+Resolving Merge conflicts
+git merge "name of branch changes done"(An eventthat takes placewhen gitis unable to automatically resolve differencein code between two commits.) this happen at same place changes are done
+
+file remove in staged
+git restore --staged file name
+
+
+git log(history)
+vi filename
+cat filename
+git restore --staged filename(this for to remove in staged)
+
+git rename file name
+git mv currentfilenameextension changefilenameextension
+
+
+git reset filename
+
+
+9154923565
+
+
